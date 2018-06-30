@@ -21,4 +21,14 @@
         <context>theme</context>
     </web-resource>
     
+    <theme key="htwchurtheme" name="HTW Chur Theme" class="com.atlassian.confluence.themes.BasicTheme">
+	    <description>The HTW Chur theme</description>
+	    <param name="includeClassicStyles" value="false"/>
+	    <resource type="download" name="default-theme.css" location="/includes/css/default-theme.css">
+	        <param name="source" value="webContext"/>
+	    </resource>
+	    <resource type="download" name="theme.css" location="/css/theme.css"/>
+	    <space-ia value="true"/>
+	</theme>
+    
 </atlassian-plugin>
