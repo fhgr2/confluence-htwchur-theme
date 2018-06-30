@@ -33,12 +33,27 @@
 	</theme>
 	
 	<colour-scheme key="htwchur-colours" name="HTW Chur CI/CD color" class="com.atlassian.confluence.themes.BaseColourScheme">
-        <colour key="property.style.topbarcolour" value="#B39048"/> <!-- colour: ocher -->
+        <colour key="property.style.topbarcolour" value="#ffffff"/> 
+        <colour key="property.style.breadcrumbstextcolour" value="#000000"/>
+        <colour key="property.style.topbarmenuitemtextcolour" value="#000000"/>
+        <colour key="property.style.topbarmenuselectedtextcolour" value="#B39048"/> <!-- colour: ocher -->
+        <colour key="property.style.topbarmenuselectedbgcolour" value="#ffffff"/>           
+		<colour key="property.style.headerbuttonbasebgcolour" value="#B39048"/> <!-- colour: ocher -->
+		<colour key="property.style.headerbuttontextcolour" value="#ffffff"/>
         <colour key="property.style.spacenamecolour" value="#999999"/>
-        <colour key="property.style.headingtextcolour" value="#663300"/>
-        <colour key="property.style.linkcolour" value="#663300"/>
+
+		<colour key="property.style.menuitemselectedbgcolour" value="#fffff"/>
+		<colour key="property.style.menuitemselectedtextcolour" value="#B39048"/>
+		<colour key="property.style.menuselectedbgcolour" value="#fffff"/>
+		<colour key="property.style.menuitemtextcolour" value="#B39048"/>
+
+		<colour key="property.style.searchfieldtextcolour" value="#000000"/>
+		<colour key="property.style.searchfieldbgcolour" value="#fffff"/>
+
+        <colour key="property.style.headingtextcolour" value="#B39048"/>
+        <colour key="property.style.linkcolour" value="#B39048"/>
         <colour key="property.style.bordercolour" value="#B39048"/>
-        <colour key="property.style.navbgcolour" value="#663300"/>
+        <colour key="property.style.navbgcolour" value="#B39048"/>
         <colour key="property.style.navtextcolour" value="#ffffff"/>
         <colour key="property.style.navselectedbgcolour" value="#B39048"/>
         <colour key="property.style.navselectedtextcolour" value="#ffffff"/>
