@@ -7,7 +7,7 @@
         <param name="plugin-logo">images/pluginLogo.png</param>
     </plugin-info>
 
-    <!-- add our i18n resource -->
+    <!-- add our i18n resource --> 
     <resource type="i18n" name="i18n" location="theme"/>
     
     <!-- add our web resources -->
@@ -22,13 +22,26 @@
     </web-resource>
     
     <theme key="htwchurtheme" name="HTW Chur Theme" class="com.atlassian.confluence.themes.BasicTheme">
-	    <description>The HTW Chur theme</description>
+	    <description>Theme based on HTW Chur CI/CD.</description>
 	    <param name="includeClassicStyles" value="false"/>
 	    <resource type="download" name="default-theme.css" location="/includes/css/default-theme.css">
 	        <param name="source" value="webContext"/>
 	    </resource>
 	    <resource type="download" name="theme.css" location="/css/theme.css"/>
+	    <colour-scheme key="${project.groupId}.${project.artifactId}:htwchur-colours"/>
 	    <space-ia value="true"/>
 	</theme>
+	
+	<colour-scheme key="htwchur-colours" name="HTW Chur CI/CD color" class="com.atlassian.confluence.themes.BaseColourScheme">
+        <colour key="property.style.topbarcolour" value="#B39048"/> <!-- colour: ocher -->
+        <colour key="property.style.spacenamecolour" value="#999999"/>
+        <colour key="property.style.headingtextcolour" value="#663300"/>
+        <colour key="property.style.linkcolour" value="#663300"/>
+        <colour key="property.style.bordercolour" value="#B39048"/>
+        <colour key="property.style.navbgcolour" value="#663300"/>
+        <colour key="property.style.navtextcolour" value="#ffffff"/>
+        <colour key="property.style.navselectedbgcolour" value="#B39048"/>
+        <colour key="property.style.navselectedtextcolour" value="#ffffff"/>
+    </colour-scheme>
     
 </atlassian-plugin>
