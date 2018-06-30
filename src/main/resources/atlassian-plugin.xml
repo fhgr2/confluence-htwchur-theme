@@ -48,7 +48,7 @@
 		<colour key="property.style.menuitemtextcolour" value="#B39048"/>
 
 		<colour key="property.style.searchfieldtextcolour" value="#000000"/>
-		<colour key="property.style.searchfieldbgcolour" value="#fffff"/>
+		<colour key="property.style.searchfieldbgcolour" value="#ffffff"/>
 
         <colour key="property.style.headingtextcolour" value="#B39048"/>
         <colour key="property.style.linkcolour" value="#B39048"/>

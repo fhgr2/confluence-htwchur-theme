@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+#id .aui-header-logo {
+	color: black;
+	filter: invert(100%);
+} 
+
 /* #header .aui-header { */
 /*     background-color: black; */
 /*     border-color: black; */
