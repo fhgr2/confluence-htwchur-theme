@@ -17,6 +17,7 @@
         <resource type="download" name="theme.css" location="/css/theme.css"/>
         <resource type="download" name="theme.js" location="/js/theme.js"/>
         <resource type="download" name="images/" location="/images"/>
+        <resource type="download" name="htw-icon-page.svg" location="/icons/htw-icon-page.svg"/>
 
         <context>theme</context>
     </web-resource>
@@ -28,6 +29,7 @@
 	        <param name="source" value="webContext"/>
 	    </resource>
 	    <resource type="download" name="theme.css" location="/css/theme.css"/>
+	    <resource type="download" name="htw-icon-page.svg" location="/icons/htw-icon-page.svg"/>
 	    <colour-scheme key="${project.groupId}.${project.artifactId}:htwchur-colours"/>
 	    <space-ia value="true"/>
 	</theme>
@@ -45,12 +47,12 @@
 		<colour key="property.style.menuitemselectedbgcolour" value="#fffff"/>
 		<colour key="property.style.menuitemselectedtextcolour" value="#B39048"/>
 		<colour key="property.style.menuselectedbgcolour" value="#fffff"/>
-		<colour key="property.style.menuitemtextcolour" value="#B39048"/>
+		<colour key="property.style.menuitemtextcolour" value="#000000"/>
 
 		<colour key="property.style.searchfieldtextcolour" value="#000000"/>
 		<colour key="property.style.searchfieldbgcolour" value="#ffffff"/>
 
-        <colour key="property.style.headingtextcolour" value="#B39048"/>
+        <colour key="property.style.headingtextcolour" value="#000000"/>
         <colour key="property.style.linkcolour" value="#B39048"/>
         <colour key="property.style.bordercolour" value="#B39048"/>
         <colour key="property.style.navbgcolour" value="#B39048"/>
@@ -58,5 +60,4 @@
         <colour key="property.style.navselectedbgcolour" value="#B39048"/>
         <colour key="property.style.navselectedtextcolour" value="#ffffff"/>
     </colour-scheme>
-    
 </atlassian-plugin>

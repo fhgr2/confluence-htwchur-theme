@@ -22,6 +22,9 @@ body {
 	color: white;	
 }
 
+.confluence-icon-page, .content-type-page {
+    background: url(htw-icon-page.svg) no-repeat;
+}
 .aui-button.aui-button-primary {
 	background-color: #B39048;	
 }
