@@ -14,8 +14,8 @@
         <url>http://www.htwchur.ch/</url>
     </organization>
 
-    <name>theme</name>
-    <description>This is the ch.htwchur.confluence.plugin:theme plugin for Atlassian Confluence.</description>
+    <name>HTW Chur theme</name>
+    <description>This is the HTW Chur theme for Atlassian Confluence.</description>
     <packaging>atlassian-plugin</packaging>
 
     <dependencies>

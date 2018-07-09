@@ -13,4 +13,31 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    
+    // setting font-wight to 
+}
+
+#footer {
+	background-color: #23829b;
+	color: white;	
+}
+
+.aui-button.aui-button-primary {
+	background-color: #B39048;	
+}
+
+.aui-header .aui-quicksearch input {
+	border: 1px solid #cccccc;
+}
+
+.wiki-content ul {
+	list-style-type: square;
+}
+
+#footer .footer-body a {
+	color: white;
+}
+
+#footer-logo {
+	background-color: transparent;
 }
