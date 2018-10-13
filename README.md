@@ -5,12 +5,16 @@ A confluence theme plugin based on HTW Chur CI/CD.
 
 # CI/CD
 ## Colors
+In RGB (Hex / Decimal)
+
 Ochre (dt. Ocker)
+- normal: A6821F / 166, 130, 31 
 - light: F0E8DA
 
 Red:
-- light: 244/226/226, F4E2E2
+- normal: C86E6F / 200, 110, 111
+- light: F4E2E2 / 244, 226, 226
 
-
-Petrol:
-- light: 217/233/237, D9E9ED
+Petrol (RGB)
+- normal: 4B92A4 / 75, 146, 164 
+- light: D9E9ED / 217, 233, 237
